@@ -1,0 +1,29 @@
+{
+  "name": "@reserva-salas/client",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "5.108.4",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "hono": "4.13.22",
+    "lucide-react": "1.80.0",
+    "radix-ui": "1.8.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "tailwind-merge": "3.7.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.3.5",
+    "@types/react": "19.3.3",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.3.0",
+    "esbuild": "0.28.2",
+    "tailwindcss": "4.3.5",
+    "vite": "8.3.8"
+  }
+}

@@ -1,0 +1,46 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      POSTGRES_DB: reserva_ci_test
+      POSTGRES_USER: reserva_ci
+      POSTGRES_PASSWORD: disposable-ci-only
+      POSTGRES_PORT: 55441
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_DB: reserva_ci_test
+          POSTGRES_USER: reserva_ci
+          POSTGRES_PASSWORD: disposable-ci-only
+        ports:
+          - '55441:5432'
+        options: >-
+          --health-cmd "pg_isready -U reserva_ci -d reserva_ci_test"
+          --health-interval 3s
+          --health-timeout 3s
+          --health-retries 20
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run lint
+      - run: npm test
+      - run: npm run build
+      - run: npm run test:integration

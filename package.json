@@ -1,0 +1,42 @@
+{
+  "name": "reserva-salas",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^22.13.0 || ^24.0.0"
+  },
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "npm run build && npm start",
+    "start": "npm run start -w server",
+    "typecheck": "npm run typecheck --workspaces",
+    "lint": "eslint .",
+    "test": "npm run test -w server && node --import tsx --test client/src/calendar.test.ts",
+    "test:integration": "npm run test:integration -w server",
+    "build": "npm run typecheck && npm run build --workspaces",
+    "db:generate": "npm run db:generate -w server --",
+    "db:migrate": "npm run db:migrate -w server",
+    "admin:create": "powershell.exe -NoProfile -File scripts/create-admin.ps1",
+    "admin:recover": "powershell.exe -NoProfile -File scripts/recover-admin.ps1",
+    "db:backup": "node scripts/backup.mjs create",
+    "db:backup:daily": "powershell.exe -NoProfile -File scripts/backup-daily.ps1",
+    "db:backup:schedule": "powershell.exe -NoProfile -File scripts/install-backup-task.ps1",
+    "db:backup:verify": "node scripts/backup.mjs verify",
+    "db:restore": "node scripts/backup.mjs restore"
+  },
+  "overrides": {
+    "@esbuild-kit/core-utils": {
+      "esbuild": "0.25.12"
+    }
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@types/node": "22.20.7",
+    "eslint": "10.15.0",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.74.0"
+  }
+}
