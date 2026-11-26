@@ -1,0 +1,70 @@
+[
+  {
+    "name": "01-inicio-de-sesion",
+    "time": "0.89"
+  },
+  {
+    "name": "02-calendario",
+    "time": "9.90"
+  },
+  {
+    "name": "03-reserva-confirmada",
+    "time": "14.75"
+  },
+  {
+    "name": "04-resultado-solicitudes-simultaneas",
+    "time": "21.99"
+  },
+  {
+    "name": "05-mis-reservas",
+    "time": "30.91"
+  },
+  {
+    "name": "06-reprogramar-reserva",
+    "time": "32.11"
+  },
+  {
+    "name": "07-historial-de-reservas",
+    "time": "36.50"
+  },
+  {
+    "name": "08-salas-y-bloqueos",
+    "time": "39.91"
+  },
+  {
+    "name": "09-editar-sala",
+    "time": "41.08"
+  },
+  {
+    "name": "10-nuevo-bloqueo",
+    "time": "47.18"
+  },
+  {
+    "name": "11-bloqueo-confirmado",
+    "time": "48.35"
+  },
+  {
+    "name": "12-actividad",
+    "time": "51.88"
+  },
+  {
+    "name": "13-detalle-de-actividad",
+    "time": "53.10"
+  },
+  {
+    "name": "14-mi-cuenta-administrador",
+    "time": "60.35"
+  },
+  {
+    "name": "15-crear-usuario",
+    "time": "61.35"
+  },
+  {
+    "name": "16-restablecer-contrasena",
+    "time": "62.52"
+  },
+  {
+    "name": "17-mi-cuenta-miembro",
+    "time": "63.26"
+  }
+]

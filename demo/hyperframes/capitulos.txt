@@ -1,0 +1,7 @@
+[1] 00:00 · Acceso privado
+[2] 00:08 · Consulta y reserva
+[3] 00:17 · Sin dobles reservas
+[4] 00:28 · Gestiona tu reserva
+[5] 00:37 · Salas y mantenimiento
+[6] 00:49 · Actividad y trazabilidad
+[7] 00:58 · Cuentas y permisos

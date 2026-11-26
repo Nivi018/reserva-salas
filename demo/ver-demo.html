@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reserva Salas · Demostración</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#f2f7fb;color:#172d46;font:16px/1.5 system-ui,sans-serif}
+    main{max-width:1160px;margin:auto;padding:32px 18px 60px}h1{margin:0;font-size:clamp(28px,5vw,48px)}
+    h2{margin-top:36px}p{max-width:65ch}video{display:block;width:100%;max-height:78vh;background:#0d2036;border-radius:12px}
+    a{color:#164574}a:focus-visible{outline:3px solid #4781ae;outline-offset:3px}
+    .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,235px),1fr));gap:14px;padding:0;list-style:none}
+    .gallery a{background:white;border:1px solid #cbd6e0;border-radius:9px;display:block;overflow:hidden;text-decoration:none;font-weight:650}
+    .gallery img{width:100%;aspect-ratio:1280/900;object-fit:cover;display:block;border-bottom:1px solid #d5e0e8}
+    .gallery span{display:block;padding:9px 12px}
+  </style>
+</head>
+<body>
+<main>
+  <h1>Reserva Salas</h1>
+  <p>Demostración narrada del flujo real: desde el inicio de sesión hasta la gestión de reservas, mantenimiento y cuentas. Todos los datos son ficticios.</p>
+  <video controls playsinline preload="metadata" poster="capturas/02-calendario.png" aria-label="Demostración de Reserva Salas">
+    <source src="reserva-salas-demo.mp4" type="video/mp4">
+    <source src="https://github.com/Nivi018/reserva-salas/releases/download/demo-v1/reserva-salas-demo.mp4" type="video/mp4">
+    <track src="reserva-salas-demo.vtt" label="Español" kind="captions" srclang="es">
+    <a href="https://github.com/Nivi018/reserva-salas/releases/tag/demo-v1">Abrir el video en GitHub</a>
+  </video>
+  <p><a href="https://github.com/Nivi018/reserva-salas/releases/download/demo-v1/reserva-salas-demo.mp4">Descargar video</a> · <a href="reserva-salas-demo.srt">Subtítulos</a> · <a href="hyperframes/capitulos.txt">Capítulos</a></p>
+  <h2>Vistas de la aplicación</h2>
+  <ul class="gallery">
+    <li><a href="capturas/01-inicio-de-sesion.png"><img src="capturas/01-inicio-de-sesion.png" alt="" loading="lazy"><span>Inicio de sesión</span></a></li>
+    <li><a href="capturas/02-calendario.png"><img src="capturas/02-calendario.png" alt="" loading="lazy"><span>Calendario</span></a></li>
+    <li><a href="capturas/03-reserva-confirmada.png"><img src="capturas/03-reserva-confirmada.png" alt="" loading="lazy"><span>Reserva confirmada</span></a></li>
+    <li><a href="capturas/04-resultado-solicitudes-simultaneas.png"><img src="capturas/04-resultado-solicitudes-simultaneas.png" alt="" loading="lazy"><span>Conflicto entre solicitudes</span></a></li>
+    <li><a href="capturas/05-mis-reservas.png"><img src="capturas/05-mis-reservas.png" alt="" loading="lazy"><span>Mis reservas</span></a></li>
+    <li><a href="capturas/06-reprogramar-reserva.png"><img src="capturas/06-reprogramar-reserva.png" alt="" loading="lazy"><span>Reprogramar reserva</span></a></li>
+    <li><a href="capturas/07-historial-de-reservas.png"><img src="capturas/07-historial-de-reservas.png" alt="" loading="lazy"><span>Historial de reservas</span></a></li>
+    <li><a href="capturas/08-salas-y-bloqueos.png"><img src="capturas/08-salas-y-bloqueos.png" alt="" loading="lazy"><span>Salas y bloqueos</span></a></li>
+    <li><a href="capturas/09-editar-sala.png"><img src="capturas/09-editar-sala.png" alt="" loading="lazy"><span>Editar sala</span></a></li>
+    <li><a href="capturas/10-nuevo-bloqueo.png"><img src="capturas/10-nuevo-bloqueo.png" alt="" loading="lazy"><span>Nuevo bloqueo</span></a></li>
+    <li><a href="capturas/11-bloqueo-confirmado.png"><img src="capturas/11-bloqueo-confirmado.png" alt="" loading="lazy"><span>Bloqueo confirmado</span></a></li>
+    <li><a href="capturas/12-actividad.png"><img src="capturas/12-actividad.png" alt="" loading="lazy"><span>Actividad</span></a></li>
+    <li><a href="capturas/13-detalle-de-actividad.png"><img src="capturas/13-detalle-de-actividad.png" alt="" loading="lazy"><span>Detalle de actividad</span></a></li>
+    <li><a href="capturas/14-mi-cuenta-administrador.png"><img src="capturas/14-mi-cuenta-administrador.png" alt="" loading="lazy"><span>Cuenta administradora</span></a></li>
+    <li><a href="capturas/15-crear-usuario.png"><img src="capturas/15-crear-usuario.png" alt="" loading="lazy"><span>Crear usuario</span></a></li>
+    <li><a href="capturas/16-restablecer-contrasena.png"><img src="capturas/16-restablecer-contrasena.png" alt="" loading="lazy"><span>Restablecer contraseña</span></a></li>
+    <li><a href="capturas/17-mi-cuenta-miembro.png"><img src="capturas/17-mi-cuenta-miembro.png" alt="" loading="lazy"><span>Cuenta de miembro</span></a></li>
+  </ul>
+</main>
+</body>
+</html>

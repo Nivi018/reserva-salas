@@ -10,3 +10,7 @@ backups/
 coverage/
 test-results/
 playwright-report/
+demo/hyperframes/.hyperframes/
+demo/hyperframes/assets/*.webm
+demo/hyperframes/assets/*.tmp
+demo/reserva-salas-demo.mp4

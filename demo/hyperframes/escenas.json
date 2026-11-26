@@ -1,0 +1,140 @@
+[
+  {
+    "title": "Acceso privado",
+    "caption": "Inicia sesión con tu correo o nombre de usuario.",
+    "name": "01",
+    "stills": [
+      {
+        "name": "01-inicio-de-sesion",
+        "seconds": 0.8913712000000005
+      }
+    ],
+    "file": "pantalla-01.mp4",
+    "duration": 8,
+    "voiceLength": 7.260136
+  },
+  {
+    "title": "Consulta y reserva",
+    "caption": "Elige la sala, la fecha y una franja libre.",
+    "name": "02",
+    "stills": [
+      {
+        "name": "02-calendario",
+        "seconds": 1.9002842999999994
+      },
+      {
+        "name": "03-reserva-confirmada",
+        "seconds": 6.753086299999999
+      }
+    ],
+    "file": "pantalla-02.mp4",
+    "duration": 9.88,
+    "voiceLength": 8.477778
+  },
+  {
+    "title": "Sin dobles reservas",
+    "caption": "Dos solicitudes simultáneas: solo una se confirma.",
+    "name": "03",
+    "stills": [
+      {
+        "name": "04-resultado-solicitudes-simultaneas",
+        "seconds": 4.106550100000001
+      }
+    ],
+    "file": "pantalla-03.mp4",
+    "duration": 10.92,
+    "voiceLength": 9.520363
+  },
+  {
+    "title": "Gestiona tu reserva",
+    "caption": "Reprograma, cancela y consulta el historial.",
+    "name": "04",
+    "stills": [
+      {
+        "name": "05-mis-reservas",
+        "seconds": 2.111621500000001
+      },
+      {
+        "name": "06-reprogramar-reserva",
+        "seconds": 3.3131901
+      },
+      {
+        "name": "07-historial-de-reservas",
+        "seconds": 7.697864199999996
+      }
+    ],
+    "file": "pantalla-04.mp4",
+    "duration": 9,
+    "voiceLength": 7.69161
+  },
+  {
+    "title": "Salas y mantenimiento",
+    "caption": "Configura horarios por sala y bloquea franjas.",
+    "name": "05",
+    "stills": [
+      {
+        "name": "08-salas-y-bloqueos",
+        "seconds": 2.1107621999999973
+      },
+      {
+        "name": "09-editar-sala",
+        "seconds": 3.281570399999997
+      },
+      {
+        "name": "10-nuevo-bloqueo",
+        "seconds": 9.381359399999994
+      },
+      {
+        "name": "11-bloqueo-confirmado",
+        "seconds": 10.554855499999999
+      }
+    ],
+    "file": "pantalla-05.mp4",
+    "duration": 11.88,
+    "voiceLength": 7.988662
+  },
+  {
+    "title": "Actividad y trazabilidad",
+    "caption": "Consulta qué cambió y los datos de cada cambio.",
+    "name": "06",
+    "stills": [
+      {
+        "name": "12-actividad",
+        "seconds": 2.195639900000002
+      },
+      {
+        "name": "13-detalle-de-actividad",
+        "seconds": 3.418589199999995
+      }
+    ],
+    "file": "pantalla-06.mp4",
+    "duration": 8.48,
+    "voiceLength": 7.176735
+  },
+  {
+    "title": "Cuentas y permisos",
+    "caption": "El administrador gestiona usuarios; cada miembro, sus reservas.",
+    "name": "07",
+    "stills": [
+      {
+        "name": "14-mi-cuenta-administrador",
+        "seconds": 2.185915399999998
+      },
+      {
+        "name": "15-crear-usuario",
+        "seconds": 3.1904437999999935
+      },
+      {
+        "name": "16-restablecer-contrasena",
+        "seconds": 4.359217000000005
+      },
+      {
+        "name": "17-mi-cuenta-miembro",
+        "seconds": 5.104669200000004
+      }
+    ],
+    "file": "pantalla-07.mp4",
+    "duration": 12.84,
+    "voiceLength": 10.843356
+  }
+]

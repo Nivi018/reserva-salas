@@ -6,9 +6,9 @@ Aplicación web local para administrar salas de reuniones. El reto principal: **
 
 **Stack:** TypeScript · React · Tailwind CSS · shadcn/ui · TanStack Query · Hono RPC · Drizzle ORM · PostgreSQL 16 · Docker Compose.
 
-![Calendario diario de una sala con franjas libres y ocupadas, y formulario de reserva](docs/calendario.png)
+[![Calendario de Reserva Salas. Haz clic para ver la demo](demo/capturas/02-calendario.png)](https://github.com/Nivi018/reserva-salas/releases/tag/demo-v1)
 
-*Captura local con datos ficticios.*
+**Demo de portafolio:** [video narrado en español (1:11)](https://github.com/Nivi018/reserva-salas/releases/tag/demo-v1) · [17 capturas y proyecto editable de Hyperframes](demo/README.md). La grabación usa datos ficticios y muestra qué ocurre cuando dos personas intentan reservar la misma franja.
 
 ## Qué se puede hacer
 

@@ -1,0 +1,9 @@
+[
+  {"title":"Acceso privado","caption":"Inicia sesión con tu correo o nombre de usuario.","voice":"Reserva Salas es una aplicación local para gestionar salas de reuniones. Entra con tu correo o nombre de usuario."},
+  {"title":"Consulta y reserva","caption":"Elige la sala, la fecha y una franja libre.","voice":"En el calendario, selecciona la sala y la fecha. Elige un horario libre, agrega un nombre si lo necesitas y confirma la reserva."},
+  {"title":"Sin dobles reservas","caption":"Dos solicitudes simultáneas: solo una se confirma.","voice":"Si dos personas intentan reservar la misma sala al mismo tiempo, PostgreSQL solo acepta una. La otra ve el conflicto y puede elegir otra franja."},
+  {"title":"Gestiona tu reserva","caption":"Reprograma, cancela y consulta el historial.","voice":"Desde Mis reservas puedes reprogramar o cancelar. Al cancelar, el horario queda libre y la reserva se conserva en el historial."},
+  {"title":"Salas y mantenimiento","caption":"Configura horarios por sala y bloquea franjas.","voice":"La administración permite crear salas y configurar su horario. También puedes bloquear una franja de mantenimiento para que no se reserve."},
+  {"title":"Actividad y trazabilidad","caption":"Consulta qué cambió y los datos de cada cambio.","voice":"En Actividad puedes consultar qué se creó, qué se cambió y qué se canceló, con el detalle antes y después de cada operación."},
+  {"title":"Cuentas y permisos","caption":"El administrador gestiona usuarios; cada miembro, sus reservas.","voice":"En Mi cuenta puedes cambiar tu contraseña. La administración también puede crear usuarios y restablecer sus contraseñas. Las copias verificadas se guardan en esta computadora."}
+]

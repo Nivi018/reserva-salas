@@ -1,0 +1,55 @@
+1
+00:00:00,160 --> 00:00:04,827
+Reserva Salas es una aplicación local para gestionar salas de reuniones.
+
+2
+00:00:04,827 --> 00:00:07,420
+Entra con tu correo o nombre de usuario.
+
+3
+00:00:08,160 --> 00:00:11,364
+En el calendario, selecciona la sala y la fecha.
+
+4
+00:00:11,364 --> 00:00:16,638
+Elige un horario libre, agrega un nombre si lo necesitas y confirma la reserva.
+
+5
+00:00:18,040 --> 00:00:24,165
+Si dos personas intentan reservar la misma sala al mismo tiempo, PostgreSQL solo acepta una.
+
+6
+00:00:24,165 --> 00:00:27,560
+La otra ve el conflicto y puede elegir otra franja.
+
+7
+00:00:28,960 --> 00:00:31,951
+Desde Mis reservas puedes reprogramar o cancelar.
+
+8
+00:00:31,951 --> 00:00:36,652
+Al cancelar, el horario queda libre y la reserva se conserva en el historial.
+
+9
+00:00:37,960 --> 00:00:41,575
+La administración permite crear salas y configurar su horario.
+
+10
+00:00:41,575 --> 00:00:45,949
+También puedes bloquear una franja de mantenimiento para que no se reserve.
+
+11
+00:00:49,840 --> 00:00:57,017
+En Actividad puedes consultar qué se creó, qué se cambió y qué se canceló, con el detalle antes y después de cada operación.
+
+12
+00:00:58,320 --> 00:01:00,952
+En Mi cuenta puedes cambiar tu contraseña.
+
+13
+00:01:00,952 --> 00:01:05,779
+La administración también puede crear usuarios y restablecer sus contraseñas.
+
+14
+00:01:05,779 --> 00:01:09,163
+Las copias verificadas se guardan en esta computadora.
